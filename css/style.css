@@ -201,61 +201,61 @@ table {
 
 /* /saidbar */
 .hero {
-	position: relative;
-	display: flex;
+  position: relative;
+  display: flex;
   max-width: 1164px;
   margin: 0 auto;
   width: 100%;
   box-sizing: border-box;
-	background: rgba(242, 255, 253, 0.2);
+  background: rgba(242, 255, 253, 0.2);
 }
 .man {
-	position: absolute;
-	top: 0%;
-	left: 54%;
-	width: 450px;
-	height: 754px;
-	z-index: 10;
-	background-image: url(../img/man.png);
+  position: absolute;
+  top: 0%;
+  left: 54%;
+  width: 450px;
+  height: 754px;
+  z-index: 10;
+  background-image: url(../img/man.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .elips-one {
-	position: absolute;
-	top: 17%;
-	left: 54%;
-	width: 650px;
-	height: 680px;
-	z-index: 5;
-	background-image: url(../img/big-elps.png);
+  position: absolute;
+  top: 17%;
+  left: 54%;
+  width: 650px;
+  height: 680px;
+  z-index: 5;
+  background-image: url(../img/big-elps.png);
   background-repeat: no-repeat;
 }
 .elips-two {
-	position: absolute;
-	width: 200px;
-	height: 200px;
-	left: 42%;
-	top: 5%;
-	z-index: 5;
-	background-image: url(../img/hz.png);
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 42%;
+  top: 5%;
+  z-index: 5;
+  background-image: url(../img/hz.png);
   background-repeat: no-repeat;
 }
 .elips-three {
-	position: absolute;
-	width: 200px;
-	height: 200px;
+  position: absolute;
+  width: 200px;
+  height: 200px;
 
-	left: -1%;
-	top: 11%;
+  left: -1%;
+  top: 11%;
 
-	z-index: 5;
-	background-image: url(../img/small-ellipse.png);
+  z-index: 5;
+  background-image: url(../img/small-ellipse.png);
   background-repeat: no-repeat;
 }
 
 .content-pos {
-	position: relative;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -296,82 +296,174 @@ table {
   margin-bottom: 26px;
 }
 .hero_group {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
   margin-bottom: 142px;
 }
 
 .hero_btn {
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 1.2;
-	color: #FFFFFF;
-	padding: 18px 30px;
-	background: #067164;
-	border-radius: 6px;
-	border: none;
-	margin-right: 48px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #ffffff;
+  padding: 18px 30px;
+  background: #067164;
+  border-radius: 6px;
+  border: none;
+  margin-right: 48px;
 }
 
 .hero_group-text {
-	display: flex;
-	align-items: center;
-	font-family: 'Poppins';
-	font-style: normal;
-	height: 47px;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 1.5;
-	color: #1C1C1C;
+  display: flex;
+  align-items: center;
+  font-family: "Poppins";
+  font-style: normal;
+  height: 47px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1c1c1c;
   text-decoration: none;
 }
 .hero_group-span {
-	position: relative;
-	display: block;
-	width: 47px;
-	height: 47px;
-	margin-right: 13px;
-	background-color: #1C1C1C;
-	border-radius: 50%;
+  position: relative;
+  display: block;
+  width: 47px;
+  height: 47px;
+  margin-right: 13px;
+  background-color: #1c1c1c;
+  border-radius: 50%;
 }
 .hero_group-svg {
-	position: absolute;
-	top: 30%;
+  position: absolute;
+  top: 30%;
   left: 30%;
-	width: 18px;
-	height: 18px;
+  width: 18px;
+  height: 18px;
 }
 /* label */
 
 .label {
-	position: relative;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 151px;
-	z-index: 15;
-	background-color: #067164;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 151px;
+  z-index: 15;
+  background-color: #067164;
 }
 .label_cont {
-	max-width: 1164px;
+  max-width: 1164px;
   margin: 0 auto;
   width: 100%;
   box-sizing: border-box;
 }
 .label_list {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 .label_item {
-	margin-right: 68px;
+  margin-right: 68px;
 }
 
 .label_item:last-child {
-	margin-right: 0px;
+  margin-right: 0px;
 }
 .label-svg {
-	height: 32px;
+  height: 32px;
+}
+
+.about {
+  /* display: flex; */
+  /* align-items: center;
+	justify-content: center; */
+}
+.about_cont {
+	position: relative;
+  display: flex;
+  padding-top: 137px;
+  padding-bottom: 120px;
+  max-width: 1164px;
+  margin: 0 auto;
+  width: 100%;
+	height: 880px;
+  box-sizing: border-box;
+}
+.about_box {
+  display: flex;
+	max-width: 1164px;
+}
+.about_cont-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.about_man-table {
+  width: 445px;
+  height: 452px;
+  margin-right: 80px;
+  margin-top: 10px;
+
+}
+.about_statue {
+	position: absolute;
+	top: 63%;
+	left: 73%;
+  width: 230px;
+    height: 220px;
+}
+
+
+.about_text-logo {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #000000;
+  margin-bottom: 24px;
+}
+.about_title {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 1.25;
+	width: 676px;
+  color: #393939;
+  margin-bottom: 28px;
+}
+
+.about_text {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+	width: 431px;
+  color: #3a3a3a;
+  margin-bottom: 20px;
+}
+.about_text-lower {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+	width: 473px;
+  color: #3a3a3a;
+  margin-bottom: 30px;
+}
+
+.about_btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  width: 219px;
+  padding: 22px 32px;
+  background: #067164;
+  color: #ffffff;
+	cursor: pointer;
 }
 
